@@ -29,12 +29,12 @@ jobs:
 
       - name: Run appcache_manifest_generator.py
         run: |
-          python appcache_manifest_generator.py -d /
+          python appcache_manifest_generator.py -d .
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: '/'
+          path: '.'
 
       - name: Deploy to GitHub Pages
         id: deployment
