@@ -64,6 +64,17 @@ const payload_map = [
         toPort: 9021
     }, 
     {
+        displayTitle: "np-fake-signin-ps5",
+        description: "Offline Account Activation",
+        fileName: "np-fake-signin-ps5.elf",
+        author: "Master",
+        projectSource: "https://gofile.io/d/WUeiXn",
+        binarySource: "https://gofile.io/d/WUeiXn",
+        version: "0.1",
+        supportedFirmwares: ["3.", "4.", "5.", "6.", "7.", "8.", "9.", "10."],
+        toPort: 9021
+    },
+    {
         displayTitle: "Byepervisor HEN",
         description: "FPKG enabler",
         fileName: "byepervisor.elf",
