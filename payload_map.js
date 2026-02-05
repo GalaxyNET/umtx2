@@ -65,12 +65,12 @@ const payload_map = [
     }, 
     {
         displayTitle: "np-fake-signin-ps5",
-        description: "Offline Account Activation",
+        description: "Offline Account Activation after etaHEN Toolbox remote play activation",
         fileName: "np-fake-signin-ps5.elf",
         author: "Master",
         projectSource: "https://gofile.io/d/WUeiXn",
         binarySource: "https://gofile.io/d/WUeiXn",
-        version: "0.1",
+        version: "1",
         supportedFirmwares: ["3.", "4.", "5.", "6.", "7.", "8.", "9.", "10."],
         toPort: 9021
     },
@@ -199,3 +199,4 @@ const payload_map = [
     }
 
 ];
+
